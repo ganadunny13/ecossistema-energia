@@ -1,0 +1,35 @@
+
+{
+  "detalhesFatura": {
+    "fatura": "Abril 2025",
+    "checklist": {
+      "Dados do Cliente": true,
+      "Consumo (kWh)": true,
+      "Créditos Aplicados": false,
+      "Valor Final": true,
+      "Data de Emissão": true
+    },
+    "observacoes": "Fatura com inconsistência nos créditos aplicados.",
+    "status": "reprovado"
+  },
+  "configuracaoBackend": {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "body-parser": "^2.2.0",
+      "cors": "^2.8.5",
+      "express": "^5.1.0",
+      "mongodb": "^6.16.0",
+      "multer": "^1.4.5-lts.2",
+      "pg": "^8.15.6"
+    }
+  }
+}
